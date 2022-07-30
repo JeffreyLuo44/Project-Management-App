@@ -1,0 +1,115 @@
+/* Global styling */
+* {
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+}
+
+/* Set global background color */
+body {
+  background-color: #EEE;
+}
+
+/* Main heading */
+.heading{
+  text-align: center;
+}
+
+/* Set default button styling */
+button {
+  background-color: navy;
+  color: #EEE;
+  margin-top: 0.5rem;
+  cursor: pointer;
+  border-radius: 0.3rem;
+  font-size: 1rem;
+  border:none;
+}
+
+button:hover{
+  transition: 0.3s;
+  background-color: turquoise;
+}
+
+/* Set default input styling */
+input{
+  border: 0.13rem navy solid;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  padding: 0.4rem ;
+  margin-right:1rem
+}
+
+/* Set default dropdown selection styling */
+select {
+  border: 0.13rem navy solid;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  padding: 0.4rem ;
+  margin-right:1rem
+}
+
+/* Set lists project styling */
+.project-list{
+  border: 0.13rem navy solid;
+  border-radius: 0.5rem;
+  background-color: lightblue;
+  float: left;
+  width: 1200px;
+  margin-left:16%;
+  padding: 0.5rem;
+}
+
+.project-item{
+  border: 0.13rem navy solid;
+  border-radius: 0.5rem;
+  background-color: #EEE;
+  max-width: 1200px;
+  padding: 0.4rem;
+  margin-top: 0.5rem;
+}
+
+.project-item:hover{
+  background-color: lightcyan;
+  transition: 0.3s;
+}
+
+.project-delete{
+  font-size:30px;
+  float: right;
+  background-color: lightblue;
+  color:grey;
+}
+
+.project-delete:hover{
+  color:red;
+}
+
+/* Set add project styling */
+.form{
+  border: 0.13rem navy solid;
+  border-radius: 0.5rem;
+  background-color: lightblue;
+  float: left;
+  margin-left:42%;
+  padding: 0.5rem;
+}
+
+#create-project{
+  text-align: center;
+}
+
+/* Set default textarea styling */
+textarea {
+  resize: none;
+  border: 0.13rem navy solid;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  padding: 0.4rem;
+  margin-right:1rem;
+  width:17.2rem;
+}
+
+#submit-button{
+  width:17.2rem;
+}
